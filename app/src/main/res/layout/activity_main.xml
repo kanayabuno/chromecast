@@ -22,5 +22,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:visibility="gone"
         class="com.google.android.gms.cast.framework.media.widget.MiniControllerFragment" />
+    <TextView
+        android:id="@+id/voiceInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="423dp">
+
+        <TextView
+            android:id="@+id/btnSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Tap to Open Mic"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
